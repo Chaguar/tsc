@@ -1,0 +1,183 @@
+teams:
+  - name: admins
+    maintainers:
+      - iliecirciumaru
+    members:
+      - mbrandenburger
+  - name: committer-contributors
+    maintainers:
+      - liran-funaro
+    members:
+      - dean-amar
+      - Effi-S
+  - name: committer-maintainers
+    maintainers:
+      - liran-funaro
+    members:
+      - cendhu
+  - name: common-maintainers
+    maintainers:
+      - tock-ibm
+    members:
+      - cendhu
+      - liran-funaro
+  - name: endorser-maintainers
+    maintainers:
+      - adecaro
+    members:
+      - ale-linux
+      - mbrandenburger
+  - name: evm-maintainers
+    maintainers:
+      - ale-linux
+    members:
+      - arner
+      - kushnireyal
+      - mbrandenburger
+  - name: orderer-contributors
+    maintainers:
+      - tock-ibm
+    members:
+      - DorKatzelnick
+      - gengur
+      - HagarMeir
+      - liran-funaro
+      - MayRosenbaum
+      - moradna
+      - moran-abilea
+  - name: orderer-maintainers
+    maintainers:
+      - tock-ibm
+    members:
+      - HagarMeir
+  - name: release-maintainers
+    maintainers:
+      - iliecirciumaru
+    members:
+      - pasquale95
+  - name: robots
+    maintainers:
+      - lfdt-bot
+    members:
+      - LF-Europe
+      - thelinuxfoundation
+  - name: sdk-maintainers
+    maintainers:
+      - ale-linux
+    members:
+      - arner
+      - kushnireyal
+      - mbrandenburger
+  - name: security-managers
+    maintainers:
+      - ryjones
+    members:
+      - adecaro
+  - name: triage
+    maintainers:
+      - cendhu
+    members:
+      - adecaro
+      - ale-linux
+      - HagarMeir
+      - liran-funaro
+      - mbrandenburger
+      - tock-ibm
+repositories:
+  - name: .github
+    teams:
+      security-managers: read
+    visibility: public
+  - name: chaguar
+    teams:
+      admins: admin
+      committer-maintainers: write
+      common-maintainers: write
+      endorser-maintainers: write
+      evm-maintainers: write
+      orderer-maintainers: write
+      release-maintainers: maintain
+      sdk-maintainers: write
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: committer
+    teams:
+      admins: admin
+      committer-contributors: write
+      committer-maintainers: maintain
+      release-maintainers: maintain
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: common
+    teams:
+      admins: admin
+      common-maintainers: maintain
+      release-maintainers: maintain
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: endorser
+    teams:
+      admins: admin
+      endorser-maintainers: maintain
+      release-maintainers: maintain
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: evm
+    teams:
+      admins: admin
+      evm-maintainers: admin
+      release-maintainers: maintain
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: orderer
+    teams:
+      admins: admin
+      orderer-contributors: write
+      orderer-maintainers: maintain
+      release-maintainers: maintain
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: rfcs
+    teams:
+      admins: admin
+      committer-maintainers: maintain
+      common-maintainers: maintain
+      endorser-maintainers: maintain
+      evm-maintainers: maintain
+      orderer-maintainers: maintain
+      release-maintainers: maintain
+      sdk-maintainers: maintain
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: samples
+    teams:
+      admins: admin
+      committer-maintainers: write
+      common-maintainers: write
+      endorser-maintainers: write
+      evm-maintainers: write
+      orderer-maintainers: write
+      release-maintainers: maintain
+      sdk-maintainers: write
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: sdk
+    teams:
+      admins: admin
+      release-maintainers: maintain
+      sdk-maintainers: admin
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: tsc
+    teams:
+      security-managers: read
+    visibility: public
