@@ -4,6 +4,20 @@ teams:
       - iliecirciumaru
     members:
       - mbrandenburger
+  - name: chaguar-maintainers
+    maintainers:
+      - adecaro
+      - tock-ibm
+    members:
+      - ale-linux
+      - arner
+      - cendhu
+      - HagarMeir
+      - iliecirciumaru
+      - kushnireyal
+      - liran-funaro
+      - mbrandenburger
+      - pasquale95
   - name: committer-contributors
     maintainers:
       - liran-funaro
@@ -34,6 +48,13 @@ teams:
       - arner
       - kushnireyal
       - mbrandenburger
+  - name: lfdt-staff
+    maintainers:
+      - jwagantall
+      - LF-Europe
+      - ryjones
+      - thelinuxfoundation
+    members: []
   - name: orderer-contributors
     maintainers:
       - tock-ibm
@@ -57,10 +78,10 @@ teams:
       - pasquale95
   - name: robots
     maintainers:
-      - lfdt-bot
-    members:
       - LF-Europe
       - thelinuxfoundation
+    members:
+      - lfdt-bot
   - name: sdk-maintainers
     maintainers:
       - ale-linux
