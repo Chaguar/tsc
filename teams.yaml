@@ -4,6 +4,11 @@ teams:
       - iliecirciumaru
     members:
       - mbrandenburger
+  - name: chaguar-ansible-collection-maintainers
+    maintainers:
+      - pasquale95
+    members:
+      - iliecirciumaru
   - name: chaguar-maintainers
     maintainers:
       - adecaro
@@ -119,6 +124,15 @@ repositories:
       orderer-maintainers: write
       release-maintainers: maintain
       sdk-maintainers: write
+      triage: triage
+      security-managers: read
+    visibility: public
+  - name: chaguar-ansible-collection
+    teams:
+      admins: admin
+      release-maintainers: maintain
+      chaguar-ansible-collection-maintainers: maintain
+      sdk-maintainers: admin
       triage: triage
       security-managers: read
     visibility: public
