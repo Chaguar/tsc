@@ -164,7 +164,7 @@ repositories:
   - name: evm
     teams:
       admins: admin
-      evm-maintainers: admin
+      evm-maintainers: maintain
       release-maintainers: maintain
       triage: triage
       security-managers: read
