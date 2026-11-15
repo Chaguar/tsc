@@ -4,31 +4,17 @@ teams:
       - iliecirciumaru
     members:
       - mbrandenburger
+  - name: ansible-collection-maintainers
+    maintainers:
+      - pasquale95
+    members:
+      - iliecirciumaru
   - name: block-explorer-maintainers
     maintainers:
       - farooqazamwasimnl
     members:
       - cendhu
       - liran-funaro
-  - name: chaguar-ansible-collection-maintainers
-    maintainers:
-      - pasquale95
-    members:
-      - iliecirciumaru
-  - name: chaguar-maintainers
-    maintainers:
-      - adecaro
-      - tock-ibm
-    members:
-      - ale-linux
-      - arner
-      - cendhu
-      - HagarMeir
-      - iliecirciumaru
-      - kushnireyal
-      - liran-funaro
-      - mbrandenburger
-      - pasquale95
   - name: committer-contributors
     maintainers:
       - liran-funaro
@@ -118,7 +104,18 @@ teams:
 repositories:
   - name: .github
     teams:
+      common-maintainers: maintain
+      lfdt-staff: maintain
       security-managers: read
+    visibility: public
+  - name: ansible-collection
+    teams:
+      admins: admin
+      ansible-collection-maintainers: maintain
+      release-maintainers: maintain
+      sdk-maintainers: admin
+      security-managers: read
+      triage: triage
     visibility: public
   - name: block-explorer
     teams:
@@ -135,15 +132,6 @@ repositories:
       orderer-maintainers: write
       release-maintainers: maintain
       sdk-maintainers: write
-      security-managers: read
-      triage: triage
-    visibility: public
-  - name: chaguar-ansible-collection
-    teams:
-      admins: admin
-      chaguar-ansible-collection-maintainers: maintain
-      release-maintainers: maintain
-      sdk-maintainers: admin
       security-managers: read
       triage: triage
     visibility: public
@@ -225,5 +213,7 @@ repositories:
     visibility: public
   - name: tsc
     teams:
+      common-maintainers: maintain
+      lfdt-staff: maintain
       security-managers: read
     visibility: public
