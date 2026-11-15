@@ -26,22 +26,22 @@ teams:
       - liran-funaro
     members:
       - cendhu
+  - name: common-contributors
+    maintainers:
+      - tock-ibm
+    members:
+      - cendhu
+      - DorKatzelnick
+      - HagarMeir
+      - liran-funaro
+      - MayRosenbaum
+      - moradna
   - name: common-maintainers
     maintainers:
       - tock-ibm
     members:
       - cendhu
       - liran-funaro
-  - name: common-contributors
-    maintainers:
-      - tock-ibm
-    members:
-      - DorKatzelnick
-      - HagarMeir
-      - liran-funaro
-      - MayRosenbaum
-      - moradna
-      - cendhu
   - name: endorser-maintainers
     maintainers:
       - adecaro
@@ -66,6 +66,7 @@ teams:
     maintainers:
       - tock-ibm
     members:
+      - cendhu
       - DorKatzelnick
       - gengur
       - HagarMeir
@@ -73,14 +74,13 @@ teams:
       - MayRosenbaum
       - moradna
       - moran-abilea
-      - cendhu
   - name: orderer-maintainers
     maintainers:
       - tock-ibm
     members:
+      - DorKatzelnick
       - HagarMeir
       - MayRosenbaum
-      - DorKatzelnick
   - name: release-maintainers
     maintainers:
       - iliecirciumaru
@@ -160,8 +160,8 @@ repositories:
   - name: common
     teams:
       admins: admin
-      common-maintainers: maintain
       common-contributors: write
+      common-maintainers: maintain
       release-maintainers: maintain
       security-managers: read
       triage: triage
